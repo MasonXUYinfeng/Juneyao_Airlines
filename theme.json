@@ -1,0 +1,224 @@
+{
+    "_inherit": false,
+    "_variables": {
+        "@TitleSize": "16px",
+        "@TitleColor": "#ffffff",
+        "@SubtitleTextSize": "14px",
+        "@SubtitleColor": "#ffffff",
+        "@TextSize": "12px",
+        "@TextColor": "#ffffff",
+        "@FooterTextSize": "10px",
+        "@FooterColor": "#ffffff",
+        "@GridColor": "#36404A",
+        "@Background.color": "red",
+        "@Object.title.color": "#ffffff",
+        "@Object.title.size": "12px",
+        "@Object.axis.line.color": "#36404A",
+        "@Colors.primary": "#01b8aa",
+        "@Colors.others": "#EEEEEE",
+        "@Colors.error": "#bb4a4a",
+        "@Colors.null": "#CCCCCC"
+    },
+    "color": "@TextColor",
+    "fontSize": "@TextSize",
+    "gridColor": "@GridColor",
+    "backgroundColor": "@Background.color",
+    "customStyles": [
+        {
+            "cssRef": "theme.css",
+            "classRef": "sense-theme"
+        }
+    ],
+    "object": {
+        "title": {
+            "main": {
+                "color": "@TitleColor",
+                "fontSize": "@TitleSize"
+            },
+            "subTitle": {
+                "color": "@SubtitleColor",
+                "fontSize": "@SubtitleTextSize"
+            },
+            "footer": {
+                "color": "@FooterColor",
+                "fontSize": "@FooterTextSize"
+            }
+        },
+        "label": {
+            "name": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            },
+            "value": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            }
+        },
+        "axis": {
+            "title": {
+                "color": "@Object.title.color",
+                "fontSize": "@Object.title.size"
+            },
+            "label": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            },
+            "line": {
+                "major": {
+                    "color": "@Object.axis.line.color"
+                },
+                "minor": {
+                    "color": "@Object.axis.line.color"
+                }
+            }
+        },
+        "grid": {
+            "line": {
+                "highContrast": {
+                    "color": "@Object.axis.line.color"
+                },
+                "major": {
+                    "color": "@Object.axis.line.color"
+                },
+                "minor": {
+                    "color": "@Object.axis.line.color"
+                }
+            }
+        },
+        "referenceLine": {
+            "label": {
+                "name": {
+                    "color": "@Object.title.color",
+                    "fontSize": "@TextSize"
+                }
+            },
+            "outOfBounds": {
+                "color": "@Object.title.color",
+                "backgroundColor": "@GridColor",
+                "fontSize": "@TextSize"
+            }
+        },
+        "legend": {
+            "title": {
+                "color": "@Object.title.color",
+                "fontSize": "@TextSize"
+            },
+            "label": {
+                "color": "@Object.title.color",
+                "fontSize": "@TextSize"
+            }
+        }
+    },
+    "dataColors": {
+        "primaryColor": "@Colors.primary",
+        "othersColor": "@Colors.others",
+        "errorColor": "@Colors.error",
+        "nullColor": "@Colors.null"
+    },
+    "palettes": {
+        "data": [
+            {
+                "scale": [
+                    "#00A4C7",
+                    "#A1C1DA",
+                    "#E7DCE0",
+                    "#FFB400",
+                    "#FC7000"
+                ],
+                "_id": "5c179eb0a569ee031930a50b",
+                "name": "Beach vibes",
+                "translation": "Enjoy the beach",
+                "propertyValue": "dnjbei",
+                "type": "row"
+            }
+        ],
+        "ui": []
+    },
+    "pieChart": {
+        "backgroundColor": "@light",
+        "title": {
+            "main": {
+                "color": "@TextColor",
+                "fontSize": "@font-normal"
+            },
+            "subTitle": {
+                "color": "@TextColor",
+                "fontSize": "@font-normal"
+            },
+            "footer": {
+                "color": "@TextColor",
+                "fontSize": "@font-normal",
+                "backgroundColor": "@light"
+            }
+        },
+        "axis": {
+            "title": {
+                "color": "@TextColor",
+                "fontSize": "@font-normal"
+            }
+        },
+        "legend": {
+            "title": {
+                "fontSize": "@font-normal",
+                "color": "@TextColor"
+            },
+            "label": {
+                "fontSize": "@font-normal",
+                "color": "#ffffff"
+            }
+        },
+        "label": {
+            "name": {
+                "color": "#ffffff",
+                "fontSize": "@font-normal"
+            },
+            "value": {
+                "color": "#ffffff",
+                "fontSize": "@font-normal"
+            }
+        }
+    },
+    "lineChart": {
+        "label": {
+            "name": {
+                "color": "white",
+                "fontSize": "10px"
+            },
+            "value": {
+                "color": "white",
+                "fontSize": "10px"
+            }
+        }
+    },
+    "scales": [
+        {
+            "scale": [
+                "#0096B5",
+                "#93B0C7",
+                "#E7DCE0",
+                "#E8A400",
+                "#E66600",
+                "#00A4C7",
+                "#A1C1DA",
+                "#FEF2F6",
+                "#FFB400",
+                "#FC7000",
+                "#17ACCC",
+                "#A9C6DD",
+                "#FEF3F6",
+                "#FFBA17",
+                "#FC7D17",
+                "#2EB4D1",
+                "#B2CCE0",
+                "#FEF4F7",
+                "#FFC12E",
+                "#FC8A2E"
+            ],
+            "_id": "5c179eb0a569ee031930a50c",
+            "name": "Juneyao_Airlines",
+            "translation": "Juneyao_Airlines",
+            "type": "class",
+            "propertyValue": "wbeorqi"
+        }
+    ]
+}

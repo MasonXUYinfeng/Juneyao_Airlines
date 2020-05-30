@@ -1,0 +1,50 @@
+.qv-panel-sheet {
+    /*background-image: url(./ark_back.png);*/
+	background-color: #161719;
+    background-size: cover;
+}
+
+#sheet-title .sheet-title-text {
+    /*color: #FC7000;*/
+	color: #FFFFFF;
+    /*text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
+    font-weight: 800;
+}
+
+
+/* Top bar  */
+#qv-toolbar-container > div, #qv-toolbar-container > div > div,
+#qv-toolbar-container > div > div > div,
+#qv-toolbar-container > div > div > div > button,
+#qv-toolbar-container > div > div > div > div,
+#qv-toolbar-container > div > div > div > div > div,
+#qv-toolbar-container > div > div > div > div > div > button,
+#qv-toolbar-container > div > div > div > div > button,
+.qv-app-info-holder span {
+    /*background-color: #FC7000!important;
+    color: #fff!important;*/
+    background-image: unset;
+    border: none;
+}
+
+.qv-state-count-bar.ng-scope.ng-isolate-scope {
+    display: none;
+}
+
+.qv-object, .qv-object-wrapper {
+    background: RGBA(255,255,255,0)!important;
+}
+
+.qv-object .qv-inner-object {
+    background: none!important;
+    padding: 0px;
+    border-radius: 0px;
+}
+
+.qv-object .qv-object-header {
+    padding-bottom: 0px !important;
+}
+
+.qv-object .qv-object-content {
+	background-color: #212123!important;
+}
